@@ -8,15 +8,12 @@ using UnityEngine.Android;
 #endif
 
 [RequireComponent(typeof(AudioSource))]
-public class AudioInputManager : MonoBehaviour
-{
-    public enum AppMode { Tuner, Recorder }
+public class AudioInputManager : MonoBehaviour{
+
     public enum TunerMode { Fast = 2048, Accurate = 4096, Ultra = 8192 }
     public enum RecorderQuality { Low, Medium, High }
     public enum RecorderState { Idle, Recording, Paused, Playing }
 
-    [Header("Modo de Operación Actual")]
-    public AppMode currentAppMode = AppMode.Tuner;
 
     [Header("Configuración de Afinador (Tuner)")]
     public int baseSampleRate = 44100;
@@ -67,11 +64,6 @@ public class AudioInputManager : MonoBehaviour
     {
         if (!isInitialized) return;
 
-        if (currentAppMode == AppMode.Tuner)
-        {
-            ReadAudioSamplesForTuner();
-        }
-
         if (recorderState == RecorderState.Recording && !isPaused)
         {
             elapsedTime += Time.deltaTime;
@@ -112,22 +104,6 @@ public class AudioInputManager : MonoBehaviour
         AudioPreferencesManager.SaveParameter("Audio_RecorderQuality", (int)recorderQuality);
     }
 
-    public void SwitchMode(AppMode newMode)
-    {
-        currentAppMode = newMode;
-        StopAllCoroutines();
-        if (audioSource.isPlaying || isPaused) StopAction();
-        InitMicrophoneForCurrentMode();
-    }
-
-    public bool SetTunerMode(TunerMode newMode)
-    {
-        if (currentTunerMode == newMode) return true;
-        currentTunerMode = newMode;
-        ReallocateBuffer();
-        return true;
-    }
-
     private void ReallocateBuffer()
     {
         lock (this)
@@ -145,13 +121,7 @@ public class AudioInputManager : MonoBehaviour
         int micPosition = Microphone.GetPosition(selectedMicrophone) - (window + 1);
         if (micPosition < 0) return;
 
-        lock (this)
-        {
-            if (audioSource.clip != null && currentAppMode == AppMode.Tuner)
-            {
-                audioSource.clip.GetData(samplesBuffer, micPosition);
-                ApplyGainToBuffer();
-            }
+        lock (this){
         }
 #endif
     }
@@ -373,15 +343,6 @@ public class AudioInputManager : MonoBehaviour
         if (Microphone.devices.Length == 0) return;
 
         selectedMicrophone = Microphone.devices[0];
-
-        if (currentAppMode == AppMode.Tuner)
-        {
-            audioSource.clip = Microphone.Start(selectedMicrophone, true, 1, baseSampleRate);
-            audioSource.loop = true;
-            while (!(Microphone.GetPosition(selectedMicrophone) > 0)) { }
-            audioSource.Play();
-        }
-
         isInitialized = true;
 #endif
     }

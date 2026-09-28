@@ -22,7 +22,6 @@ public class AudioUIManager : MonoBehaviour
 
     [Header("Botones de Configuración y Navegación")]
     public Button returnButton;
-    public Button tunerButton;
     public Button metronomeButton;
 
     [Header("Dropdowns / Selectores")]
@@ -83,11 +82,6 @@ public class AudioUIManager : MonoBehaviour
 
         if (settingsGearButton) settingsGearButton.onClick.AddListener(ShowSettingsPanel);
         if (returnButton) returnButton.onClick.AddListener(ShowMainPanel);
-
-        if (tunerButton) tunerButton.onClick.AddListener(() => {
-            audioInputManager.SwitchMode(AudioInputManager.AppMode.Tuner);
-        });
-
         if (gainMicroSlider) gainMicroSlider.onValueChanged.AddListener((val) => audioInputManager.SetMicGain(val));
         if (volumenSlider) volumenSlider.onValueChanged.AddListener((val) => audioInputManager.SetMasterVolume(val));
 
