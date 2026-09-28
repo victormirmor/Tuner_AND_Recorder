@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: 88277d50e1292e7c2895e859d0b98cb4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: imagen_bandera_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 450
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f889c378d719e0c9c933b89c6438fcd5
+      internalID: -1818841676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: imagen_bandera_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 452
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51160df836f870e2a9cbd3601d1f726
+      internalID: 864469235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: imagen_bandera_1
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 201
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090945e3e5b6936d693b8b6443ddc476
+      internalID: -417268076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: imagen_bandera_3
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 201
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf46e3fa21e80d883b4dff531c8d2ffa
+      internalID: -1838134797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5b3bff9352818eb51896e96a259ea934
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      imagen_bandera_0: -1818841676
+      imagen_bandera_1: -417268076
+      imagen_bandera_10: 366272942
+      imagen_bandera_11: -516431783
+      imagen_bandera_12: -2005066426
+      imagen_bandera_13: 2005633998
+      imagen_bandera_14: -797671379
+      imagen_bandera_15: 1552112076
+      imagen_bandera_16: -143862545
+      imagen_bandera_17: -281017990
+      imagen_bandera_18: -1741763487
+      imagen_bandera_19: -931439490
+      imagen_bandera_2: 864469235
+      imagen_bandera_20: -30716907
+      imagen_bandera_21: 897880281
+      imagen_bandera_22: 938268865
+      imagen_bandera_23: 1750074332
+      imagen_bandera_24: 1319227343
+      imagen_bandera_25: 1971154639
+      imagen_bandera_26: 816443803
+      imagen_bandera_27: 98406748
+      imagen_bandera_28: 922957619
+      imagen_bandera_29: 1191556562
+      imagen_bandera_3: -1838134797
+      imagen_bandera_30: -308891968
+      imagen_bandera_31: -1481080565
+      imagen_bandera_32: -1419681123
+      imagen_bandera_33: -1143505842
+      imagen_bandera_34: 998547847
+      imagen_bandera_35: -11138740
+      imagen_bandera_36: -2047385018
+      imagen_bandera_37: 1824005213
+      imagen_bandera_38: 5835772
+      imagen_bandera_39: 160674960
+      imagen_bandera_4: 79655042
+      imagen_bandera_40: -1961360018
+      imagen_bandera_41: 90088501
+      imagen_bandera_42: 1531230974
+      imagen_bandera_43: -1824146556
+      imagen_bandera_44: 1378849456
+      imagen_bandera_45: 647276224
+      imagen_bandera_46: 1320768405
+      imagen_bandera_47: 1407386377
+      imagen_bandera_48: 731793287
+      imagen_bandera_49: 2078691482
+      imagen_bandera_5: -1138661594
+      imagen_bandera_50: 1259680751
+      imagen_bandera_51: 973679984
+      imagen_bandera_52: 947840634
+      imagen_bandera_53: 1420899374
+      imagen_bandera_54: 825442607
+      imagen_bandera_55: -2054813118
+      imagen_bandera_56: 603120895
+      imagen_bandera_57: 1816343372
+      imagen_bandera_58: -1987568507
+      imagen_bandera_59: -2077370217
+      imagen_bandera_6: 328228692
+      imagen_bandera_60: -1918463151
+      imagen_bandera_61: 1494789444
+      imagen_bandera_62: -1652030351
+      imagen_bandera_63: -80965856
+      imagen_bandera_64: 1951114862
+      imagen_bandera_65: 1453546565
+      imagen_bandera_66: 1475365349
+      imagen_bandera_67: -32167459
+      imagen_bandera_68: 97508735
+      imagen_bandera_69: -850308839
+      imagen_bandera_7: -782533568
+      imagen_bandera_70: -2100917853
+      imagen_bandera_71: 1740418742
+      imagen_bandera_72: 2057137400
+      imagen_bandera_73: 1726878373
+      imagen_bandera_74: -1204626089
+      imagen_bandera_75: -463634145
+      imagen_bandera_76: -537689664
+      imagen_bandera_77: 592212861
+      imagen_bandera_78: 1395093603
+      imagen_bandera_79: -2003535547
+      imagen_bandera_8: -721012953
+      imagen_bandera_80: 697667252
+      imagen_bandera_81: 1879671324
+      imagen_bandera_82: 2125475581
+      imagen_bandera_83: -518666376
+      imagen_bandera_84: 1907630744
+      imagen_bandera_85: 903192537
+      imagen_bandera_86: 520077085
+      imagen_bandera_87: -361650526
+      imagen_bandera_88: 1157561580
+      imagen_bandera_89: -423974274
+      imagen_bandera_9: 1574963945
+      imagen_bandera_90: 1752419955
+      imagen_bandera_91: -729348760
+      imagen_bandera_92: -669247469
+      imagen_bandera_93: 123251021
+      imagen_bandera_94: -565294828
+      imagen_bandera_95: 2140253076
+      imagen_bandera_96: -2141531162
+      imagen_bandera_97: -777044344
+      imagen_bandera_98: 689313597
+      imagen_bandera_99: 1300408012
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
