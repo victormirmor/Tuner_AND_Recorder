@@ -298,7 +298,7 @@ public class AudioInputManager : MonoBehaviour
         string fileName = $"GRABACION_{timestamp}";
 
         string musicDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
-        string appFolder = Path.Combine(musicDirectory, "TuJuegoOApp");
+        string appFolder = Path.Combine(musicDirectory, "DM-Recorder");
 
         if (!Directory.Exists(appFolder))
         {
